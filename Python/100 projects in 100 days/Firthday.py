@@ -1,1 +1,22 @@
-print("hello,"+"my name is\n"+"nha")
+# print("hello\nworld")
+# #concat
+# print("hello,"+"my name is\n"+"nha")
+# # Fix the code below 👇
+# print("Notes from Day 1")
+# print("The print statement is used to output strings")
+# print("Strings are strings of characters")
+# print("String Concatenation is done with the + sign")
+# print("New lines can be created with a \ and the letter n")
+# print("What is your name?")
+# #function
+# input("what is your name1:")
+# print("Hello, "+input("what is your name:")+"!")
+# variable
+# name= input("what is your name:")
+# print(name)
+name="Ty"
+print(name)
+name="Nguyen"
+print(name)
+#tính kích thước độ dài khi nhập vào
+print(len(input("What is your name?:")))
