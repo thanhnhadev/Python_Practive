@@ -26,6 +26,34 @@
 # •	Khởi tạo một vài đối tượng Textbook và Novel.
 # •	Sử dụng hàm process_library_item() để hiển thị thông tin của các đối tượng này.
 # •	Thực hiện một số thao tác mượn/trả sách bằng các phương thức borrow() và return_item() để kiểm tra tính đóng gói.
-from Item  import Item
-from Textbook import Textbook
-from Novel import Novel
+from textbook import Textbook
+from novel import Novel
+
+def process_library_item(item):
+    item.display_info()
+
+if __name__ == "__main__":
+    book1 = Textbook("Toán 12", "Nguyễn Văn A", "Toán học")
+    book2 = Novel("Đắc Nhân Tâm", "Dale Carnegie", "Tâm lý học")
+    book3 = Textbook("Vật Lý 10", "Trần Văn B", "Vật lý")
+    book4 = Novel("Harry Potter", "J.K. Rowling", "Fantasy")
+
+    print("Thông tin sách ban đầu:")
+    for book in [book1, book2, book3, book4]:
+        process_library_item(book)
+
+    print("\nThao tác mượn sách:")
+    book1.borrow()
+    book2.borrow()
+
+    print("\nThông tin sau khi mượn:")
+    for book in [book1, book2]:
+        process_library_item(book)
+
+    print("\nThao tác trả sách:")
+    book1.return_item()
+    book2.return_item()
+
+    print("\nThông tin sau khi trả:")
+    for book in [book1, book2]:
+        process_library_item(book)
