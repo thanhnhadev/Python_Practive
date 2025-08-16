@@ -1,0 +1,7 @@
+﻿transactionId,customerId,customerName,product,category,quantity,unitPrice,transactionDate,totalValue
+T001,C001,John Doe,Laptop,Electronics,1,1200,7/1/2023,1200
+T002,C002,Jane Smith,Mouse,Accessories,2,25,7/1/2023,50
+T003,C001,John Doe,Keyboard,Accessories,1,75,7/2/2023,75
+T004,C003,Emily Davis,Laptop,Electronics,1,11550,7/3/2023,11550
+T005,C002,Jane Smith,Laptop,Electronics,1,1190,7/3/2023,1190
+T006,C004,Alex Nguyen,Monitor,Electronics,2,300,7/4/2023,600
