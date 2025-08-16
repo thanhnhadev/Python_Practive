@@ -40,6 +40,7 @@
 # 5.Thoát
 # dùng json file để store student
 # json.dump(data, f, ensure_ascii=False, indent=4)
+# json.dump(student_dicts, f, ensure_ascii=False, indent=4)
 import pandas as pd
 import json
 import os
