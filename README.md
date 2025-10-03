@@ -8,13 +8,13 @@
 # https://unsplash.com/
 # https://meyerweb.com/eric/tools/css/reset/
 
-Prettier
-Auto Rename Tag
-css Language Server
-Eslint
-Git/Github/github Authentication
-HTML Language Server
-Tailwind Css Intellisense
-turbo console Log
-Bookmarks
-Docker/container
+--Prettier
+--Auto Rename Tag
+--css Language Server
+--Eslint
+--Git/Github/github Authentication
+--HTML Language Server
+--Tailwind Css Intellisense
+--turbo console Log
+--Bookmarks
+--Docker/container
