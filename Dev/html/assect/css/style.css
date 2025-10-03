@@ -1,0 +1,11 @@
+@import url('root.css');
+@import url('reponsive.css');
+@import url('reset.css');
+.box{
+    width: 50vw;
+    height: 100px;
+    background-color: var(--text-color);
+}
+h1{
+    font-size: 1rem;
+}
