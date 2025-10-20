@@ -20,7 +20,7 @@
 #     print("mặt sấp tails")
 # --------------------------------
 # list
-fruits  = ["cherry","apple","pear"]
+# fruits  = ["cherry","apple","pear"]
 # state1 =  "Delaware"
 # state2 = "Pennsylvania"
 # states_of_america =["Delaware","Pennsylvania"]
@@ -205,6 +205,24 @@ scissors = '''
 # print(paper)
 # print("Kéo:")
 # print(scissors)
-user_choice = input("what do you choose? type 0 for rock, 1 for Paper of 2 for Scissors \n")
+game_images = [rock,paper,scissors]
+user_choice = int(input("what do you choose? type 0 for rock-búa, 1 for Paper-bao of 2 for Scissors-kéo \n"))
+if user_choice >=0 and user_choice <=2:
+   print(game_images[user_choice])
+
 computer_choice = random.randint(0, 2)
-print(f"Computer chose {computer_choice}")
+# print(f"Computer chose {computer_choice}")
+print("Computer chose:")
+print(game_images[computer_choice])
+if user_choice >= 3 or user_choice < 0:
+     print("you typed an invalid number . you lose!")
+elif user_choice ==0 and computer_choice ==2:
+    print("user wins!")
+elif computer_choice==0 and user_choice==2:
+    print("you lose!")
+elif computer_choice > user_choice:
+    print("you lose!")
+elif user_choice > computer_choice:
+    print("you win!")
+elif computer_choice == user_choice:
+    print("it's a draw!")
