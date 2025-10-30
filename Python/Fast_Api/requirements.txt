@@ -1,0 +1,2 @@
+fastapi
+uvcorn[standard]
