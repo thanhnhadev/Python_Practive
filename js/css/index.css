@@ -15,6 +15,7 @@ a{
     text-decoration: none;
     font-weight: 600;
     transition: ease .25s;
+    background-color: #ccc;
 }
 a:hover{
     color: #fff;
