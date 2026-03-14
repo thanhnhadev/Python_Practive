@@ -1,0 +1,17 @@
+h1{
+    color: green;
+}
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+} 
+
+a {
+  color: #0056b3;
+  text-decoration: none
+}
+
+body {
+  background-color: #f3f3f3;
+}

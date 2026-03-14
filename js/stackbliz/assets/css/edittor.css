@@ -1,0 +1,10 @@
+body{
+    background: violet;
+}
+div{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: aqua;
+}

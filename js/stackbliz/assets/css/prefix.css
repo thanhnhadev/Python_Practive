@@ -1,0 +1,19 @@
+body{
+
+}
+div{
+
+}
+h1{
+    color: green;
+    font-size: 50px;
+    user-select: none;
+    /* chorme - safari */
+    -webkit-user-select:none;
+    /* mozilar  */
+    -moz-user-select:none;
+    /* microsoft  */
+    -ms-user-select:none;
+    /* opera  */
+    -o-user-select:none;
+}
