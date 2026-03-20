@@ -1,0 +1,9 @@
+strong{
+    color: #fff;
+    margin: 50px;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: block;
+    padding: 20px;
+}
