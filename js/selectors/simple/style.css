@@ -1,0 +1,41 @@
+/* *{
+    color: red;
+    font-size: 32px;
+} */
+body{
+    padding-left: 32px;
+    line-height: 1.6;
+    font-size: 120%;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: green;
+}
+.text{
+    color: red;
+    font-size: 32px;
+}
+#heading{
+    color: green;
+}
+.red-color{
+    color: blue
+}
+.large{
+    font-size: 32px;
+}
+p.intro{
+    color: red;
+    font-size: 32px;
+}
+h1#title{
+    color: brown;
+}
+div, p{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
+p{
+    background-color: yellowgreen;
+}
