@@ -1,0 +1,27 @@
+h2{
+    visibility: hidden;
+}
+h2{
+    visibility: visible;
+}
+figure{
+    transition: 1s;
+}
+input:checked ~ figure{
+    visibility: hidden;
+    opacity: 0;
+}
+span{
+    color: aliceblue;
+    background-color: green;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    width: 200px;
+}
+.element{
+    visibility: hidden;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
