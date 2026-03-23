@@ -4,3 +4,35 @@ body{
     font-size: 120%;
     line-height: 1.6;
 }
+.heading-1, .heading-2{
+    color: green;
+    display: inline-block;
+    user-select: none;
+}
+.heading-1:hover{
+    color: red;
+}
+
+.heading-2:active{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+.box:empty{
+    background-color: red;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+#target:target{
+    color: red;
+}

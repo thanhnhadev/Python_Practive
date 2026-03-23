@@ -1,0 +1,22 @@
+body{
+    padding-left: 28px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 120%;
+    line-height: 1.6;
+}
+p:first-child{
+    color: red;
+    font-size: 30px;
+}
+p:last-child{
+    color: green;
+    font-size: 30px;
+}
+ul li a{
+    color: blue;
+    text-decoration: none;
+}
+ul li:first-child a{
+    color: brown;
+    tab-size: 30px;
+}
