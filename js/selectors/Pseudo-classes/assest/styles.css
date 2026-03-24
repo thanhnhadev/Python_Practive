@@ -20,3 +20,7 @@ ul li:first-child a{
     color: brown;
     tab-size: 30px;
 }
+.box p:nth-child(3n+0){
+    color: gray;
+    font-size: 32px;
+}
