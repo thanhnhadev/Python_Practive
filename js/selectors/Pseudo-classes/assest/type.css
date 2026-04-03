@@ -12,6 +12,6 @@ p:first-of-type{
     color: blue;
     font-size: 20px;
 }
-.highlight:not(p){
+.highlight:not(:first-of-type){
     background-color: yellow;
 }
