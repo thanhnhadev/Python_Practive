@@ -1,5 +1,6 @@
 // ôn js
 const strLen = "hello"
+
 // check độ dài
 console.log(strLen.length);
 
